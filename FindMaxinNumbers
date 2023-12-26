@@ -1,0 +1,11 @@
+numbers = [1,2,4,5,8,9,5,10,11,15,3,6,5]
+
+temp = numbers[0]
+
+for number in numbers:
+  if temp<number:
+   temp=number
+
+print("This Program Finds out Maximum Number From a group of 13 Numbers")
+print("Max Number is:")
+print(temp)
